@@ -1,0 +1,110 @@
+.Home {
+    display: flex;
+    justify-content: center;
+
+    .SearchWeather {
+        width: 30%;
+        background-color: #009d96;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .ImportSearch {
+
+            input {
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                border-radius: 10px;
+                border: unset;
+                background-color: #f4f4fe;
+            }
+
+            p {
+                text-align: end;
+                color: white;
+            }
+        }
+
+        .ResulftSearch {
+            margin-top: 20px;
+            background-color: #f4f4fe;
+            padding: 10px;
+            box-sizing: border-box;
+
+            p {
+                padding-top: 20px;
+            }
+        }
+
+        .ResulftSearch:hover {
+            background-color: antiquewhite;
+            cursor: pointer;
+        }
+    }
+
+    .DetailWeather {
+        width: 70%;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .DetailWeatherrr {
+            padding-top: 20px;
+            box-sizing: border-box;
+
+            h1 {
+                color: #009d96;
+            }
+
+            .Car {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .mainCar {
+                    width: 12.5%;
+                    text-align: center;
+                    padding: 10px;
+                    box-sizing: border-box;
+
+                    div {
+                        background-color: #009d96;
+                        padding: 10px;
+                        border-radius: 10px;
+                        box-shadow: 5px 5px 0px 0px rgb(59, 47, 57);
+                        cursor: pointer;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    div:hover {
+                        background-color: salmon;
+                    }
+
+                }
+
+
+            }
+        }
+
+        .DetailGetDays {
+            h1 {
+                padding-top: 20px;
+            }
+
+            .mainCar {
+                display: flex;
+                gap: 20px;
+
+                .Car {
+                    width: 25%;
+                }
+            }
+        }
+
+    }
+}
